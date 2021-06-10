@@ -1,0 +1,204 @@
+/* Website body */
+ 
+body {    
+	clear: both; /* Clears float value */
+	margin: 30px auto; 
+	width: 80%;
+	text-align: left;
+	background-color:#FFFFFF; /* Sets background color to light grey */
+}
+
+/* Main content area - Articles and Side-bars */
+
+#section1 {    
+	display: block;
+	color: #FFFFFF;
+	clear: both;
+	width: 100%;
+	background-color: white;
+	height: 1000px;
+	line-height: 30px;
+	height: 700px;
+}
+
+#section2 {
+	background-color: black;
+	width: 100%;
+	height: 385px;
+	border-radius: 5px; /* Rounded Corner */
+	-moz-border-radius: 5px;  /* For Mozilla browsers, same rounded corner */
+	-webkit-border-radius: 5px; /* FOr Safari 5 and below, same rounded corner */
+	border-color: black;
+	border-style: solid;
+    border-width: 1px;
+}
+
+
+/* Article contents */
+
+h4 {
+	font-size: 24px;
+	font-family: 'Bell MT';
+}
+
+h5 {
+	font-family: 'Perpetua';
+	font-size: 20px;
+}
+
+h3 {
+	font-family: 'Perpetua';
+	font-size: 18px;
+}
+
+p {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+	text-align: justify
+}
+
+
+#holi {
+	margin: 0 auto 10px auto;
+	border-radius: 3px; /* Rounded Corner */
+	-moz-border-radius: 3px;  /* For Mozilla browsers, same rounded corner */
+	-webkit-border-radius: 3px; /* FOr Safari 5 and below, same rounded corner */
+	font-family: 'Blackadder ITC';
+	font-size: 50px;
+}
+
+li {
+	color: #FFFFFF;
+}
+
+h2 {
+	font-family: 'Open Sans';
+	font-size: 17px;
+	text-align: center;
+	background-color: black;
+}
+
+/* Navavigation Bar */		
+
+.pageHeader nav {
+	background: #000000; /* Sets light blue background */
+	height: 40px;  /* Sets the height to 40px, otherwise the nav bar will look like a line */
+	line-height: 30px; /* It makes the links to appear in the middle */
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px; /* Rounded Corner */
+	-moz-border-radius: 5px;  /* For Mozilla browsers, same rounded corner */
+	-webkit-border-radius: 5px; /* FOr Safari 5 and below, same rounded corner */
+	border-color: black;
+	border-style: solid;
+    border-width: 1px;
+	font-family: 'Lato';
+	font-size: 17px;
+}
+.pageHeader nav ul { 
+	margin: 0 auto;
+}
+
+/* Styles for Links */
+
+.pageHeader nav ul li {  
+	float: left;  
+	display: inline;   /* Makes the links to display horizontally */ 
+}
+	
+.pageHeader nav a:link, .pageHeader nav a:visited {
+	color: #FFFFFF;   /* Sets the color of the links to white */
+	display: inline-block;  /* Makes the links to be displays as blocks */
+	height: 30px;
+	padding: 5px 23px;  /* Sets space between links */
+	text-decoration: none;
+}
+.pageHeader nav a:hover, .pageHeader nav a:active,
+.pageHeader nav .active a:link, .pageHeader nav .active a:visited {
+	background: #FFFFFF; /* Changes the background color to dark blue */
+	color: #000000;
+}
+/* Main Content */
+
+
+article {
+	width: 	47%;
+	margin-left: 2%;
+	padding: 2% 3%;
+	margin-bottom: 2%;
+	border-radius: 5px; /* Rounded Corner */
+	-moz-border-radius: 5px;  /* For Mozilla browsers, same rounded corner */
+	-webkit-border-radius: 5px; /* FOr Safari 5 and below, same rounded corner */
+	border-color: black;
+	border-style: solid;
+    border-width: 1px;
+	background-color: black;
+	float: left;
+	height: 625px;
+}
+
+/* Side-bar Navigation */		
+
+.top-sidebar {          /* Style applied to the Side-bar */
+	width: 15%;
+	float: left;
+	padding: 2% 3%;
+	border-radius: 5px; /* Rounded Corner */
+	-moz-border-radius: 5px;  /* For Mozilla browsers, same rounded corner */
+	-webkit-border-radius: 5px; /* FOr Safari 5 and below, same rounded corner */
+	border-color: black;
+	border-style: solid;
+    border-width: 1px;
+	background-color: black;
+	height: 625px;
+}
+
+.navigation {       /* Style applied to the navigation list */
+ 	display: block;
+    list-style-position: inside; 
+    list-style-type: none;  /* Removes the bullets */
+    margin: 0;
+    padding: 0.875em 0; 
+}
+/* Featured Panel */		
+
+.top-sidebar2{          /* Style applied to the Side-bar */
+	width: 15%;
+	float: right;
+	padding: 2% 3%;
+	margin-left: 2%;
+	border-radius: 5px; /* Rounded Corner */
+	-moz-border-radius: 5px;  /* For Mozilla browsers, same rounded corner */
+	-webkit-border-radius: 5px; /* FOr Safari 5 and below, same rounded corner */
+	border-color: black;
+	border-style: solid;
+    border-width: 1px;
+	background-color: black;
+	height: 625px;
+}
+/* Footer */	
+
+/* Styles are mostly same as pageHeader */
+
+.pageFooter {     /* Style applied to footer bar */
+	width: 100%;
+	height:40px;
+	line-height:5px;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background-color: #000000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	color: #FFFFFF;	
+}
+
+.pageFooter p {  /* Style applied to content inside footer bar */
+	width: 90%;
+	margin: 2% auto;
+}
+
+#monika, #mc, #monika2, #yuri, #yuri2, #mc2 {
+	display: none;
+}
